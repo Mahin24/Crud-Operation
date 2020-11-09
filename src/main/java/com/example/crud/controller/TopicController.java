@@ -29,6 +29,8 @@ public class TopicController {
 		List<Topic> topicList= topicService.getAllTopicList();
 		modelandview.addObject("topicList",topicList);
 		return modelandview;
+		
+		
 	}
 
 
